@@ -2,6 +2,8 @@
 
 **See the signal in any repository.** RepoRadar is a lightweight, client-side analyzer for public GitHub repositories. It summarizes public project metadata to help developers decide what to investigate before adopting or contributing to a project.
 
+**Live demo:** https://reporadar-github.vercel.app
+
 ## Features
 
 - Search by GitHub URL or `owner/repo`
@@ -29,7 +31,7 @@ RepoRadar reads public repository data from the GitHub REST API directly in your
 
 ## Deploy
 
-The site can be hosted on Vercel or any static hosting provider. No environment variables are required.
+The site is deployed on Vercel and connected to this GitHub repository for automatic deployments from the `main` branch. No environment variables are required.
 
 ## License
 
